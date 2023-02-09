@@ -1,4 +1,5 @@
 /* custom css*/
+/* Setting Background and typo of font*/
 body { 
     background-image: url('/assets/images/background.png');
   
@@ -14,7 +15,7 @@ p {
       width: 50%;
       padding: 10px;
     }
-
+/* Mofifying characteristics of links */
 a:link, a:visited {
         color: rgb(10, 10, 48);
         padding: 15px 25px;
@@ -22,9 +23,11 @@ a:link, a:visited {
         text-decoration: none;
         display: inline-block;
       }
+      /* When the mouse is up, it change color */
  a:hover, a:active {
         color: rgb(29, 17, 206); 
       }
+ /* Mofifying characteristics of pictures */     
 .photo {
     width: 500px;
         }
@@ -63,7 +66,8 @@ a:link, a:visited {
     margin-right:100px; 
     margin-top:30px;
   }
-
+ 
+  /* Details of the buttons */
 .button {
 
     background-color: #cfcfced7;
@@ -83,10 +87,10 @@ a:link, a:visited {
     background-color: #d8d4ce;
     margin-right: 20%;
     margin-left: 20%;
-    padding: 5px; /* Same value on all four sides. */
-    border-style: solid; /* Same value on all four sides. */
-    border-width: 1px; /* All four borders have equal widths. */
-    border-color: #ccc; /* All four borders have same black color. */
+    padding: 5px; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ccc;
     border-radius: 5px;
     text-align: center;
     box-sizing: border-box
@@ -94,14 +98,14 @@ a:link, a:visited {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
   }
   
 
