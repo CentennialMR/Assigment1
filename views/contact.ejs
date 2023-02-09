@@ -1,0 +1,42 @@
+<%-include partials/header.ejs%>
+<%-include partials/main_nav.ejs%>
+  
+<div class="center">
+  <h1 style="color:#2d1b70;margin-top:30px">Contact me</h1>
+  
+  </div>
+<div class="container">
+  <form action="action_page.php">
+      <label for="fname">First Name  </label>
+     <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width:600px">
+      <br>
+     <label for="lname">Last  Name  </label>
+     <input type="text" id="lname" name="lastname" placeholder="Your last name.."style="width:600px">
+     <br>
+     <label for="eaddress">Email Address</label>
+     <input type="text" id="eaddress" name="emailaddress" placeholder="Your email address.."style="width:600px">
+     <br>
+     <label for="cnumber">Contact Number</label>
+     <input type="text" id="cnumber" name="contactnumber" placeholder="Your phone number.." style="width:200px">
+     <br>
+     <label for="message">Message</label>
+     <textarea id="message" name="message" placeholder="Write message.." style="height:100px"></textarea>
+ 
+  </form>
+ </div>
+ <a class="button" href="/index" target="_self">Submit</a>
+ <a class="button" href="/about" target="_self">Next</a>
+ <div class="panelOfContactInformation">
+  <p style="color:rgb(44, 44, 37)">Contact me: Phone Number:222-3456-7865. Email:
+    <a class="aboutlink" href="mailto:maricrv@gmail.com">mailto:maricrv@gmail.com</a>
+    <a href="https://www.facebook.com/profile"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/profile"><i class="fa-brands fa-square-instagram"></i></a>
+    <a href="https://www.twitter.com/profile"><i class="fa-brands fa-twitter"></i></a>
+    
+    </p>
+</div>
+ 
+
+<%-include partials/bottom_nav.ejs%>
+<%-include partials/footer.ejs%>   
+
